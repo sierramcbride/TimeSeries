@@ -1,0 +1,36 @@
+---
+title: "FinalInstructions"
+author: "Sierra McBride"
+date: "2022-08-01"
+output: html_document
+---
+
+# **Instructions**
+
+Times series data is information collected about a single subject over a certain period of time. It includes three patterns: trend, seasonal, and cyclic. The data collected can be used to make predictions about what will happen next in the area it is studying. This app will focus on Canadian gas production collected in monthly increments.
+
+### Full-Time Series Tab
+
+-   In the second tab you will see a time plot of the data. You can hover over the plot to view the month and year the data was collected as well as the volume of gas produced for that month. There are two boxes where you can input a starting and ending year. This will allow you to view a specific time period in the data.
+
+### Other Plots Tab
+
+In the third tab you will see three buttons. One for seasonality, one for autocorrelation, and one for decomposition.
+
+-   When the seasonality button is clicked, you will see a seasonality plot of the data. You can hover over the plot to view the month and year the data was collected as well as the volume of gas produced for that month. There are two boxes where you can input a starting and ending year. This will allow you to view a specific time period in the data.
+
+-   When the autocorrelation button is clicked, you will see an autocorrelation plot of the data. You can hover over the plot to view the lag and acf of the data.
+
+-   When the decomposition button is clicked, you will see a decomposition plot of the data. You can hover over the plot to view the month and year the data was collected as well as the value at that period in time. There are two boxes where you can input a starting and ending year. This will allow you to view a specific time period in the data. Additionally, there is a slider bar that will allow you to smooth the trend. By increasing the slider bar, the trend will become more of a straight line.
+
+### Simple Models Tab
+
+-   In the fourth tab you will see a time plot of the data with the addition of the forecasted values for the naive, seasonal naive, mean, and drift models. There will be four check boxes that allow you to select a specific model to view. The forecasted values will be seen in color on the plot and the color will correspond to the to the specific model selected. There is also a box where you can enter the time period you would like to forecast for. This will allow you to see the future predicted values of the data. Additionally, there is a box where you can input an ending year. This will allow you to choose a year that you would like to predict the values from.
+
+### Exponential Smoothing Tab
+
+-   In the fifth tab you will see a time plot of the data with the addition of the forecasted values for the Holt and Holts Winters models. There will be two check boxes that allow you to select a specific model to view. The forecasted values will be seen in color on the plot and the color will correspond to the to the specific model selected. There is also a box where you can enter the time period you would like to forecast for. This will allow you to see the future predicted values of the data. Additionally, there is a box where you can input an ending year. This will allow you to choose a year that you would like to predict the values from.
+
+### Arima Tab
+
+-   In the sixth tab you will see a time plot of the data with the addition of the forecasted values for the manual arima and auto arima models. There will be two check boxes that allow you to select a specific model to view. The forecasted values will be seen in color on the plot and the color will correspond to the to the specific model selected. There is also a box where you can enter the time period you would like to forecast for. This will allow you to see the future predicted values of the data. Additionally, there is a box where you can input an ending year. This will allow you to choose a year that you would like to predict the values from.
